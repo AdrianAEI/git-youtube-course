@@ -1,0 +1,18 @@
+cd directory
+git init
+//glowny branch - main
+copy con nazwa.txt
+dir // wyswietla pliki w katalogu
+code . //otwiera visual studio code dla danego katalogu git 
+git config --global user.name "Adrian Pirog" 
+git add -A 
+git status
+git log
+git add nazwa.txt
+git commit -m"komunikat"
+git commit -am"wszystkie zmodyfikowane sa dodawane"
+git checkout -b"logowanie" //new branch
+git checkout master //switch branch
+git push
+git remote add origin https://github.com/AdrianAEI/git-youtube-course.git
+git push -u origin master
